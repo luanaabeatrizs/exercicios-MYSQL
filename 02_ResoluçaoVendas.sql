@@ -21,7 +21,7 @@ Produto_Codigo_Produto int,
 Nota_fiscal_Numero_NF int,
 Num_item int,
 Qtde_item int,
-primary key (Produto_Codigo_Produto, Nota_fiscal_Numero_NF) 	-- lembrar de puxar das outras tabelas
+primary key (Produto_Codigo_Produto, Nota_fiscal_Numero_NF)
 ) default charset = utf8mb4;
 
 alter table Produto modify column Descricao_Produto varchar(50);
