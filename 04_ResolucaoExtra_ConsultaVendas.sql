@@ -6,7 +6,7 @@ select Codigo_produto, Descricao_Produto, Preco_produto from produto;
 select * from Venda;
 select Numero_NF, ValorTotal_NF from Venda;
 
--- ALIMENTANDO A TABELA PARA PODER PARA AS CONSULTAS DOS EXERCÍCIOS ABAIXO --
+-- ALIMENTANDO A TABELA PARA AS CONSULTAS DOS EXERCÍCIOS ABAIXO --
 insert into produto (Codigo_produto, Descricao_Produto, Preco_produto, Peso)
 values (1546, 'Teclado mecânico', 250.00, 300);
 
